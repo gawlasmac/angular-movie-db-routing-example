@@ -13,6 +13,8 @@ import {MoviesInCategoryComponent} from './pages/categories/movies-in-category/m
 import {AppRoutingModule} from './app-routing.module';
 import { YearsComponent } from './pages/years/years.component';
 import { MovieInYearsComponent } from './pages/years/movie-in-years/movie-in-years.component';
+import { HttpTestComponent } from './pages/http-test/http-test.component';
+import { AddMovieComponent } from './pages/add-movie/add-movie.component';
 
 
 @NgModule({
@@ -26,6 +28,8 @@ import { MovieInYearsComponent } from './pages/years/movie-in-years/movie-in-yea
     MovieCoverComponent,
     YearsComponent,
     MovieInYearsComponent,
+    HttpTestComponent,
+    AddMovieComponent,
   ],
   imports: [BrowserModule, HttpClientModule, AppRoutingModule],
   providers: [],
