@@ -15,6 +15,7 @@ import { YearsComponent } from './pages/years/years.component';
 import { MovieInYearsComponent } from './pages/years/movie-in-years/movie-in-years.component';
 import { HttpTestComponent } from './pages/http-test/http-test.component';
 import { AddMovieComponent } from './pages/add-movie/add-movie.component';
+import {FormsModule} from '@angular/forms';
 
 
 @NgModule({
@@ -31,7 +32,7 @@ import { AddMovieComponent } from './pages/add-movie/add-movie.component';
     HttpTestComponent,
     AddMovieComponent,
   ],
-  imports: [BrowserModule, HttpClientModule, AppRoutingModule],
+  imports: [BrowserModule, HttpClientModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
